@@ -19,7 +19,7 @@ public class JNITest {
 
     // C调用java中的带两个int参数的方法
     public int Add(int x, int y) {
-        int result = x + y;
+        int result = 100*(x + y);
         Log.d("JNITest","java result=" + result);
         return result;
     }

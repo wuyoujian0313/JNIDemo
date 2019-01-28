@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         JNITest jniTest = new JNITest();
-        Log.d("JNIDemo",jniTest.get());
+        Log.d("JNIDemo",jniTest.get()+":"+jniTest.Add(10,10));
 
         jniTest.callPrintStaticStr();
 
